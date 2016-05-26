@@ -1,0 +1,9 @@
+---
+server:
+    install: '1'
+    timezone: UTC
+    locale: pl_PL.UTF-8
+vagrant_local:
+    install: '1'
+    vm: { base_box: trusty64, hostname: default, ip: 192.168.33.99, memory: '512', sharedfolder: ./, useVagrantCloud: '1', syncType: nfs }
+
